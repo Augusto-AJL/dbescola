@@ -20,3 +20,17 @@ Os dados são persistidos em um **banco de dados MySQL** e exibidos em uma inter
 
 ## 📁 Estrutura do Projeto
 
+psii.senai.appescola
+│
+├── controller
+│ └── AlunoController.java
+│
+├── model
+│ └── Aluno.java
+│
+├── repository
+│ └── AlunoRepository.java
+│
+└── resources
+└── templates
+└── alunos.html
