@@ -1,25 +1,33 @@
-# dbescola
+# Sistema Escolar - Cadastro de Alunos
 
-# 📚 Sistema de Cadastro de Alunos
-
-## 📝 Descrição
-Este projeto é uma aplicação web desenvolvida em **Java com Spring Boot**, que permite **cadastrar e listar alunos** de um sistema escolar.  
-Os dados são persistidos em um **banco de dados MySQL** e exibidos em uma interface web construída com **Thymeleaf**.
+Projeto prático avaliativo da disciplina de **Projeto Web**, desenvolvido com **Spring Boot** para cadastro e listagem de alunos em um sistema escolar.
 
 ---
 
-## ⚙️ Tecnologias Utilizadas
-- ☕ Java 17+
-- 🌱 Spring Boot 3+
-- 📝 Thymeleaf
-- 🗃️ Spring Data JPA
-- 🐬 MySQL
-- 📦 Maven
+## Tecnologias Utilizadas
+Java 17+
+Spring Boot 3+
+Spring Web
+Spring Data JPA
+Thymeleaf
+MySQL
+Maven
 
 ---
 
-## 📁 Estrutura do Projeto
+## Funcionalidades
+Cadastro de aluno com os campos:
+  - **ID** (gerado automaticamente)
+  - **Nome**
+  - **Matrícula**
+  - **Curso**
+  - **Idade**
+Listagem de alunos cadastrados na mesma página do formulário
+Persistência de dados em banco de dados MySQL
 
+---
+
+## Estrutura do Projeto
 psii.senai.appescola
 │
 ├── controller
@@ -34,3 +42,6 @@ psii.senai.appescola
 └── resources
 └── templates
 └── alunos.html
+
+## A aplicação estára disponivel no:
+http://localhost:8088/alunos
